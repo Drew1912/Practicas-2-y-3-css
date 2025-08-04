@@ -1,0 +1,75 @@
+section,
+p {
+    font-family: Poppins;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    font-family: Lexend;
+}
+
+header {
+    background-color: #3E442B;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 60px;
+
+}
+
+footer {
+    text-align: center;
+    background-color: #3E442B;
+    color: white;
+    padding: 10px;
+    /* margin-top: 40px; */
+    font-size: 13px;
+}
+
+.about_me {
+    text-align: center;
+    margin: 0px 0;
+    padding: 60px;
+    background-color: #AAADC4;
+}
+
+.habilidades {
+    background-color: #AAADC4;
+    padding: 60px;
+}
+
+.habilidades ol {
+    list-style: circle;
+    padding: 8px 12px;
+}
+
+.proyectos {
+    display: flex;
+    background-color: #8D909B;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+
+.proyectos div {
+    background-color: #D6EEFF;
+    /* width: 100px; */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contacto {
+    background-color: #AAADC4;
+    padding: 20px;
+    text-align: center;
+}
+
+.contacto a{
+    display: block;
+}
